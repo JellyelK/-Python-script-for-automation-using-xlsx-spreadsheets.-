@@ -4,6 +4,19 @@ import time
 from time import sleep
 from datetime import datetime
 
+#Several notes about this script:
+
+#The coordinates are set according to my notebook screen, so if you don't configure them, the script won't function as intended.
+#I recommend having some knowledge about using PyAutoGUI and MouseInfo.
+#Be very cautious when altering information in the spreadsheet. If any field names are changed or deleted, the script may encounter errors.
+#That being said, I hope you enjoy and have fun!
+
+#Algumas observações sobre este script
+#- As coodernadas estão setadas de acordo com a tela do meu notebook, logo caso você não as configure o script não irá funcionar como deve
+#- Recomendo que você tenha alguma noção sobre o uso do PyautoGUI e o mouseInfo
+#- Muito cuidado ao alterar as informações na planilha, caso algum nome dos campos  presentes seja mudado ou apagado o scrip poderá apresentar erros
+#- Dito isso, espero que você goste e se divirta
+
 
 #Busca de arquivos na planilha ultilizando o Pandas
 tabela_clientes = pd.read_excel("Formulario teste advbox.xlsx")
